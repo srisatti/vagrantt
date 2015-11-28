@@ -6,4 +6,4 @@ yum update -y --exclude=kernel
 
 # tools
 
-yum update -y nano git uzip screen nc telnet
+yum update -y nano git uzip screen nc client
