@@ -35,8 +35,8 @@ chkconfig mysqld on
 
  #download starter content
 cd /vagrant
+sudo -u vagrant wget -q https://raw.githubusercontent.com/srisatti/vagrantt/master/files/index.html
 sudo -u vagrant wget -q https://raw.githubusercontent.com/srisatti/vagrantt/master/files/info.php
-sudo -u vagrant wget -q https://raw.githubusercontent.com/srisatti/vagrantt/master/files/info.php
- service apache restart 
+ service httpd restart 
 
 
