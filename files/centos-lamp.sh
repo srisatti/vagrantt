@@ -34,7 +34,9 @@ chkconfig mysqld on
  mysql -u root -e "Show databases";
 
  #download starter content
+cd /vagrant
+sudo -u vagrant wget -q https://raw.githubusercontent.com/srisatti/vagrantt/master/files/info.php
+sudo -u vagrant wget -q https://raw.githubusercontent.com/srisatti/vagrantt/master/files/info.php
+ service apache restart 
 
- service apache restart
 
- 
